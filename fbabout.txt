@@ -1,0 +1,57 @@
+class fbAbout{
+    private fbId: string;
+    private phoneNo: number;
+    private dateOfBirth: any;
+    private city: string;
+    private Gender: string;
+
+    constructor(Id:string,_dateOfBirth:any,_phoneNo?:number,_city?:string,_Gender?:string) {
+        this.fbId = Id;
+        this.dateOfBirth = _dateOfBirth;
+        this.phoneNo = _phoneNo;
+        this.city = _city;
+        this.Gender = _Gender;
+    }
+
+    getage():any {
+        if (this.dateOfBirth != undefined)
+        { 
+            //calculate nd return age
+        }
+        else
+        {
+            //return some deault value
+        }
+    }
+    workedat(): any{
+        //get the list of comp. worked at and currently working at
+    }
+
+    getFamilyMember(): any{
+        //get the list of family members in friend list in fb
+    }
+
+    getProfessionalSkills(): any{
+        //get professional skills
+    }
+
+    getEducationalDetails(): any{
+        //get list of school and collages attended
+    }
+
+    getPlacesLived(): any{
+        //get the list of places lived
+    }
+
+    getBasicInfo(): any{
+        //get the basic information
+    }
+
+    getRelationshipStatus(): any{
+        //get the relationship status and information
+    }
+
+    getLifeEvents(): any{
+        //get the relationship status and information
+    }
+}
